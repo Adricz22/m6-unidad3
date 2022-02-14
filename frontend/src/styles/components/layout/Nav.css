@@ -1,0 +1,36 @@
+.navegacion {
+    background-color: #0097A7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+@media (max-width: 768px) {
+    .navegacion {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-bg {
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+
+.navegacion a {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 0.4em 0.4em;
+}
+
+.navegacion a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.activo {
+    background-color: #4c76a5;
+}

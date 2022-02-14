@@ -1,0 +1,33 @@
+.servicios {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    height: 400px;
+    margin-bottom: 130px;
+}
+
+
+.borde {
+    border-radius: 3%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.sal {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+
+@media (max-width: 768px) {
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 480px;
+        margin: auto;
+        height: 100%;
+    }
+}

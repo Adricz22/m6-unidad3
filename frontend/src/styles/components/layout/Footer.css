@@ -1,0 +1,33 @@
+footer {
+    background-color: #ccc;
+    background-color: rgb(1, 15, 17);
+    color: white;
+    padding: 2em 0;
+}
+
+.social_foo {
+    float: right;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+
+.copyright {
+
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+
+
+    .copyright {
+        transform: scale(0.9);
+    }
+
+    .social_foo {
+        transform: scale(0.7);
+        left: 20px;
+        bottom: 30px;
+    }
+}
